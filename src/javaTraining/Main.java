@@ -8,7 +8,7 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		System.out.println("시작");
+		System.out.println("시작!");
 		Scanner scan = new Scanner(System.in);// 스캐너 함수를 부른다.
 		int [] array = new int[9];// 9개짜리 정수가들어가는 배열을 만든다.			
 		
