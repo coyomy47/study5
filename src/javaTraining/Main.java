@@ -21,8 +21,8 @@ public class Main {
 		int index = 0;			// 최대값의 위치를 알아낼 변수 생성
 		
 		for(int i=1;i<array.length;i++){
-			if(array[i] > max) 			// max는 array[0]이므로, max보다 큰 값이 있으면 그 값이 max가 됨.
-			{							
+			if(array[i] > max) 			// max는 array[0]이므로, max보다 큰 값이 있으면 그 값이 max가 된다.
+			{						
 				max = array[i];
 				index = i+1;	// max가 된 값의 위치를 index에 저장합니다.
 			}
