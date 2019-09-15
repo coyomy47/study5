@@ -15,8 +15,8 @@ public class Main {
 			array[i]=scan.nextInt();	
 		}
 		
-		int max = array[0];			// 기준이 될 첫번 째 값을 max에 넣음 
-		int index = 1;			// 최대값의 위치를 알아낼 변수 생성
+		int max = array[0];			// 기준이 될 첫번 째 값을 max에 넣습니다.
+		int index = 1;			// 최대값의 위치를 알아낼 변수 생성합니다.
 		
 		for(int i=1;i<array.length;i++){
 			if(array[i] > max) 			// max는 array[0]이므로, max보다 큰 값이 있으면 그 값이 max가 됩니다.
