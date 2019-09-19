@@ -18,11 +18,11 @@ public class Main2 {
         	System.out.println("ascending");		//"ascending"
         }else if(input.equals(D)){	//받은문자열 이같으면
         	System.out.println("descending");;	// "descending"출력
-        } else {
-        	System.out.println("mixed");;		// 둘다 아닐시 "mixed"출력
+        } else{
+       	System.out.println("mixed");;		// 둘다 아닐시 "mixed"출력
         }
 
-        scan.close();
+        scan.close();		//스캐너 함수를닫는다.
         
       
 	}
