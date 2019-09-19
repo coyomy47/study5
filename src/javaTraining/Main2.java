@@ -13,7 +13,7 @@ public class Main2 {
         	array[i] = scan.nextInt();
         }
         scan.close();
-        String output=new String();
+        String output=new String();		//문자열 생성
         for (int i=0;i<array.length-1;i++){		//반복문 시작
             if(array[i]==array[i+1]-1){		//if문시작,	배열의 값에서 1을 뺐을때 순서대로 배열의 값이 같아야 한다.
                 output="ascending";		//순서대로 입력되었을시 "ascending"출력
@@ -24,7 +24,7 @@ public class Main2 {
                 break;					//if문 중단
             }
         }		//반복문 종료
-        System.out.println(output);
+        System.out.println(output);	//문자열출력
       
 	}
 
