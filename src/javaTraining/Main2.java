@@ -12,7 +12,7 @@ public class Main2 {
         for (int i = 0; i < array.length; i++) {	// 배열에 8개의 수를 입력받아 넣습니다.
         	array[i] = scan.nextInt();
         }
-        
+        scan.close();
         String output=new String();
         for (int i=0;i<array.length-1;i++){		//반복문 시작
             if(array[i]==array[i+1]-1){		//if문시작,	배열의 값에서 1을 뺐을때 순서대로 배열의 값이 같아야 한다.
